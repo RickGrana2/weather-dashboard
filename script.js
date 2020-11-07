@@ -17,3 +17,12 @@
 
 // WHEN I open the weather dashboard
 // THEN I am presented with the last searched city forecast
+
+
+$.ajax({
+  url: queryURL,
+  method: "GET"
+}).then(function(response) {
+
+})
+
